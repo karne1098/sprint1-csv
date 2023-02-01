@@ -82,7 +82,7 @@ public class CSVParser {
         }
         try {
             CSVParser newCSVParser = new CSVParser(args[0]);
-                System.out.println(args[1] + " found on lines: " + newCSVParser.lookupRows(args[1]));
+            System.out.println(args[1] + " found on lines: " + newCSVParser.lookupRows(args[1]));
 
         } catch (Exception e){
             System.out.println("File not found: " + args[0]);
